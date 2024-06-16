@@ -1,0 +1,217 @@
+body{
+    background-color: whitesmoke
+}
+*{
+    box-sizing: border-box;
+}
+#background_image{
+    display: inline-block;
+    border:1px solid black;
+    width:100%;
+    height: 500px;
+    /* padding: 10px; */
+    margin: auto;
+    background-image: url("projectcsssbackgroundimage.jpg");
+    color: white;
+    box-shadow: 80px 80px 120px inset black;
+    
+}
+.image_text{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.container1 {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo,
+.service_link,
+.contact_link,
+.wagtail_course_link {
+    flex-basis: 25%;
+    padding: 30px 10px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.container1 a {
+    color: black;
+}
+
+.container1 a:hover {
+    color: red;
+}
+
+
+.no-underline{
+    text-decoration: none;
+}
+#scrolldown_button{
+    
+    float: right;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 00px 0px 20px;
+    background-image: url(dropdownicon.jpg);
+}
+a.link{
+    display: inline-block;
+    margin:19px;
+    width:250px;
+    text-align: right;
+
+}
+
+.hover{
+    color:blue;
+
+}
+.active{
+    color:black;
+}
+#parent_id{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centre_box {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 60px 0px 40px 0px;
+}
+
+.left_box,
+.right_box,
+.left_box_text,
+.right_box_text {
+    flex-basis: 50%;
+    padding: 30px;
+    text-align: center;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #333; /* Darken the background color on hover */
+}
+
+
+
+.container3{
+
+    position: relative; 
+    background-image: url("sidedownimage1.jpg");
+    width: 47%;
+    height: 500px;
+    margin: 100px 300px ;
+    
+}
+
+.overlay_image1{
+    position: absolute;
+    color: white; 
+    text-align: center;
+    top: 380px;
+    left: 600px;
+    width: 300px;
+    height:200px;
+}
+.container4{
+
+    position: relative; 
+    background-image: url("sidedownimage2.jpg");
+    /* padding: 100px 0px 0px 0px; */
+    width: 40%;
+    height: 400px;
+    margin: 200px 300px ;
+    
+}
+
+.overlay_image2{
+    position: absolute;
+    color: white; 
+    text-align: center;
+    top: 300px;
+    left: -140px;
+    width: 300px;
+    height:200px;
+
+}
+.container5{
+
+    position: relative; 
+    background-image: url("sidedownimage3.jpg");
+    width: 47%;
+    height: 500px;
+    margin: 100px 300px;
+    
+}
+.container6 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.left_box_link_down,
+.right_box_link_down {
+    flex-basis: 50%;
+    padding: 30px 90px 20px 90px; /* Adjusted padding for consistent spacing */
+    text-align: center; /* Center align the content */
+    color: white;
+}
+
+.link_color {
+    color: white;
+}
+
+
+
+
+.sizelarge{
+    font-size: 25px;
+
+}
+#blockmake{
+    display: block;
+    text-align: center;
+    padding: 50px 70px 60px 70px;
+}
+#blockmake2 {
+    display: block;
+    text-align: center;
+    width: 90%;
+    padding: 50px 100px 60px 100px;
+}
+
+#blockmake3{
+    display: block;
+    text-align: center;
+    background-color: purple;
+    color: white;
+    height: 40%;
+    padding: 20px 70px 20px 70px;
+
+}
